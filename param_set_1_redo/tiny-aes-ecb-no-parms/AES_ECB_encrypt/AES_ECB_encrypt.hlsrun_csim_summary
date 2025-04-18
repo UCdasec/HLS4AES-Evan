@@ -1,0 +1,156 @@
+<ENTRY>
+{
+ "thisFile": "/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-no-parms/AES_ECB_encrypt/AES_ECB_encrypt.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Mon Mar  3 00:27:21 2025",
+ "timestampMillis": "1740979641166",
+ "buildStep": {
+  "cmdId": "1bc2de03-da29-4f75-bb54-b1b5cb435a56",
+  "name": "vitis-run",
+  "logFile": "/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-no-parms/AES_ECB_encrypt/logs/AES_ECB_encrypt.steps.log",
+  "commandLine": "/home/ctf/research/Xilinx/Vitis/2024.1/bin/unwrapped/lnx64.o/vitis-run  --mode hls --csim --config /home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-no-parms/hls_config.cfg --work_dir AES_ECB_encrypt ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-no-parms/hls_config.cfg",
+   "--work_dir",
+   "AES_ECB_encrypt"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-no-parms"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Mar  3 00:27:21 2025",
+ "timestampMillis": "1740979641166",
+ "status": {
+  "cmdId": "1bc2de03-da29-4f75-bb54-b1b5cb435a56",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Mon Mar  3 00:27:31 2025",
+ "timestampMillis": "1740979651869",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "AES_ECB_encrypt",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon Mar  3 00:27:31 2025",
+ "timestampMillis": "1740979651871",
+ "buildStep": {
+  "cmdId": "9f4f3c8e-42a8-42e7-a024-88898d7291e6",
+  "name": "csim_design",
+  "logFile": "/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-no-parms/AES_ECB_encrypt/hls/hls.log",
+  "commandLine": "csim_design",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-no-parms"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Mar  3 00:27:31 2025",
+ "timestampMillis": "1740979651871",
+ "status": {
+  "cmdId": "9f4f3c8e-42a8-42e7-a024-88898d7291e6",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Mar  3 00:27:40 2025",
+ "timestampMillis": "1740979660584",
+ "status": {
+  "cmdId": "9f4f3c8e-42a8-42e7-a024-88898d7291e6",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Mar  3 00:27:40 2025",
+ "timestampMillis": "1740979660813",
+ "status": {
+  "cmdId": "1bc2de03-da29-4f75-bb54-b1b5cb435a56",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Mar  3 00:27:40 2025",
+ "timestampMillis": "1740979660815",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Mar  3 00:27:40 2025",
+ "timestampMillis": "1740979660816",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

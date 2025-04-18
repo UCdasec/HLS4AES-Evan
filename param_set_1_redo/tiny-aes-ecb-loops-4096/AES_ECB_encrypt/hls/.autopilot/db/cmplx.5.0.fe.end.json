@@ -1,0 +1,107 @@
+{
+    "1": {
+        "name": "Cipher",
+        "file": "..\/..\/tiny-AES-c-mod\/aes.c",
+        "fileloc": "426",
+        "instructions": "87",
+        "total_instructions": "584",
+        "calls": "5 4 3 2",
+        "basicblocks": "1",
+        "loads": {
+            "L": "16",
+            "T": "16"
+        },
+        "stores": {
+            "T": "16"
+        }
+    },
+    "2": {
+        "name": "Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_22",
+        "file": "..\/..\/tiny-AES-c-mod\/aes.c",
+        "fileloc": "435",
+        "instructions": "44",
+        "total_instructions": "44",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3",
+            "T": "1"
+        },
+        "stores": {
+            "L": "6",
+            "T": "1"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "3": {
+        "name": "Cipher_Pipeline_VITIS_LOOP_424_1",
+        "file": "..\/..\/tiny-AES-c-mod\/aes.c",
+        "fileloc": "415",
+        "instructions": "373",
+        "total_instructions": "373",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "G": "16",
+            "L": "33"
+        },
+        "stores": {
+            "L": "34"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "4": {
+        "name": "Cipher_Pipeline_VITIS_LOOP_254_1_VITIS_LOOP_256_2",
+        "file": "..\/..\/tiny-AES-c-mod\/aes.c",
+        "fileloc": "426",
+        "instructions": "38",
+        "total_instructions": "38",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "G": "1",
+            "L": "3",
+            "T": "1"
+        },
+        "stores": {
+            "L": "6",
+            "T": "1"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "0": {
+        "name": "AES_ECB_encrypt",
+        "file": "..\/..\/tiny-AES-c-mod\/aes.c",
+        "fileloc": "470",
+        "instructions": "8",
+        "total_instructions": "592",
+        "calls": "1",
+        "basicblocks": "1"
+    },
+    "5": {
+        "name": "Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_2",
+        "file": "..\/..\/tiny-AES-c-mod\/aes.c",
+        "fileloc": "418",
+        "instructions": "42",
+        "total_instructions": "42",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3",
+            "T": "1"
+        },
+        "stores": {
+            "L": "6",
+            "T": "1"
+        },
+        "loops": {
+            "L": "1"
+        }
+    }
+}

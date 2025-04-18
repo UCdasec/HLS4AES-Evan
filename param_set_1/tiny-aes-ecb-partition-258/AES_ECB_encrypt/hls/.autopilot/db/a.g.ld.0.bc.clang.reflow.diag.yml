@@ -1,0 +1,352 @@
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 301, Column: 0 }
+Function:        MixColumns
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          xtime
+    DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 295, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          MixColumns
+    DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 301, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 414, Column: 0 }
+Function:        Cipher
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          AddRoundKey
+    DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 238, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          Cipher
+    DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 414, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 414, Column: 0 }
+Function:        Cipher
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          SubBytes
+    DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 252, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          Cipher
+    DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 414, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 414, Column: 0 }
+Function:        Cipher
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          ShiftRows
+    DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 267, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          Cipher
+    DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 414, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 414, Column: 0 }
+Function:        Cipher
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          MixColumns
+    DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 301, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          Cipher
+    DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 414, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-aggr
+Name:            AggrSucc
+DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 471, Column: 0 }
+Function:        AES_ECB_encrypt
+Args:            
+  - String:          'Aggregating '
+  - HwTyName:        scalar
+  - String:          ' variable '''
+  - Name:            ctx
+  - String:          ''' with '
+  - AggregateTypeName: 'compact=bit'
+  - String:          ' mode in '
+  - Bitwidth:        '1536'
+  - String:          '-bits'
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        VITIS_LOOP_242_2
+  - String:          '> at '
+  - LoopLoc:         '../../tiny-AES-c-mod/aes.c:242:23'
+  - String:          ' '
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        VITIS_LOOP_256_2
+  - String:          '> at '
+  - LoopLoc:         '../../tiny-AES-c-mod/aes.c:256:23'
+  - String:          ' '
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        VITIS_LOOP_424_1
+  - String:          '> at '
+  - LoopLoc:         '../../tiny-AES-c-mod/aes.c:424:21'
+  - String:          ' '
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        VITIS_LOOP_242_2
+  - String:          '> at '
+  - LoopLoc:         '../../tiny-AES-c-mod/aes.c:242:23'
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 304, Column: 21 }
+Function:        Cipher
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_304_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 240, Column: 21 }
+Function:        Cipher
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_240_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 242, Column: 23 }
+Function:        Cipher
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_242_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 254, Column: 21 }
+Function:        Cipher
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_254_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 256, Column: 23 }
+Function:        Cipher
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_256_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 414, Column: 0 }
+Function:        Cipher
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_304_1
+  - String:          ''' ('
+  - LoopLoc:         '../../tiny-AES-c-mod/aes.c:304:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          Cipher
+  - String:          ''' completely with a factor of '
+  - Factor:          '4'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 414, Column: 0 }
+Function:        Cipher
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_240_1
+  - String:          ''' ('
+  - LoopLoc:         '../../tiny-AES-c-mod/aes.c:240:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          Cipher
+  - String:          ''' completely with a factor of '
+  - Factor:          '4'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 414, Column: 0 }
+Function:        Cipher
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_242_2
+  - String:          ''' ('
+  - LoopLoc:         '../../tiny-AES-c-mod/aes.c:242:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          Cipher
+  - String:          ''' completely with a factor of '
+  - Factor:          '4'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 414, Column: 0 }
+Function:        Cipher
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_242_2
+  - String:          ''' ('
+  - LoopLoc:         '../../tiny-AES-c-mod/aes.c:242:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          Cipher
+  - String:          ''' completely with a factor of '
+  - Factor:          '4'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 414, Column: 0 }
+Function:        Cipher
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_242_2
+  - String:          ''' ('
+  - LoopLoc:         '../../tiny-AES-c-mod/aes.c:242:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          Cipher
+  - String:          ''' completely with a factor of '
+  - Factor:          '4'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 414, Column: 0 }
+Function:        Cipher
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_242_2
+  - String:          ''' ('
+  - LoopLoc:         '../../tiny-AES-c-mod/aes.c:242:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          Cipher
+  - String:          ''' completely with a factor of '
+  - Factor:          '4'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 414, Column: 0 }
+Function:        Cipher
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_254_1
+  - String:          ''' ('
+  - LoopLoc:         '../../tiny-AES-c-mod/aes.c:254:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          Cipher
+  - String:          ''' completely with a factor of '
+  - Factor:          '4'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 414, Column: 0 }
+Function:        Cipher
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_256_2
+  - String:          ''' ('
+  - LoopLoc:         '../../tiny-AES-c-mod/aes.c:256:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          Cipher
+  - String:          ''' completely with a factor of '
+  - Factor:          '4'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 414, Column: 0 }
+Function:        Cipher
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_256_2
+  - String:          ''' ('
+  - LoopLoc:         '../../tiny-AES-c-mod/aes.c:256:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          Cipher
+  - String:          ''' completely with a factor of '
+  - Factor:          '4'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 414, Column: 0 }
+Function:        Cipher
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_256_2
+  - String:          ''' ('
+  - LoopLoc:         '../../tiny-AES-c-mod/aes.c:256:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          Cipher
+  - String:          ''' completely with a factor of '
+  - Factor:          '4'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../../tiny-AES-c-mod/aes.c, Line: 414, Column: 0 }
+Function:        Cipher
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_256_2
+  - String:          ''' ('
+  - LoopLoc:         '../../tiny-AES-c-mod/aes.c:256:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          Cipher
+  - String:          ''' completely with a factor of '
+  - Factor:          '4'
+...

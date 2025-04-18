@@ -1,0 +1,245 @@
+<ENTRY>
+{
+ "thisFile": "/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-partition-258/AES_ECB_encrypt/AES_ECB_encrypt.hlscompile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Mon Mar  3 00:21:06 2025",
+ "timestampMillis": "1740979266723",
+ "buildStep": {
+  "cmdId": "c328a57b-b958-4458-b7b7-41a082ceb84e",
+  "name": "v++",
+  "logFile": "/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-partition-258/AES_ECB_encrypt/logs/AES_ECB_encrypt.steps.log",
+  "commandLine": "/home/ctf/research/Xilinx/Vitis/2024.1/bin/unwrapped/lnx64.o/v++  -c --mode hls --config /home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-partition-258/hls_config.cfg --work_dir AES_ECB_encrypt ",
+  "args": [
+   "-c",
+   "--mode",
+   "hls",
+   "--config",
+   "/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-partition-258/hls_config.cfg",
+   "--work_dir",
+   "AES_ECB_encrypt"
+  ],
+  "iniFiles": [
+   {
+    "path": "/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-partition-258/hls_config.cfg",
+    "content": "part=xc7z020clg484-1\n\n[hls]\nflow_target=vivado\npackage.output.format=ip_catalog\npackage.output.syn=false\nsyn.top=AES_ECB_encrypt\nsyn.file=/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c\ntb.file=/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/test.c\nsyn.array_partition.complete_threshold=258\ncsim.code_analyzer=1"
+   }
+  ],
+  "cwd": "/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-partition-258"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Mar  3 00:21:06 2025",
+ "timestampMillis": "1740979266723",
+ "status": {
+  "cmdId": "c328a57b-b958-4458-b7b7-41a082ceb84e",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Mon Mar  3 00:21:16 2025",
+ "timestampMillis": "1740979276373",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "AES_ECB_encrypt",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon Mar  3 00:21:16 2025",
+ "timestampMillis": "1740979276376",
+ "buildStep": {
+  "cmdId": "120bf5e6-9c6d-4fcb-9212-74d64e743b96",
+  "name": "csynth_design",
+  "logFile": "/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-partition-258/AES_ECB_encrypt/hls/hls.log",
+  "commandLine": "csynth_design",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-partition-258"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Mar  3 00:21:16 2025",
+ "timestampMillis": "1740979276377",
+ "status": {
+  "cmdId": "120bf5e6-9c6d-4fcb-9212-74d64e743b96",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Mar  3 00:21:16 2025",
+ "timestampMillis": "1740979276378",
+ "report": {
+  "path": "/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-partition-258/AES_ECB_encrypt/hls/hls_data.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Mar  3 00:21:16 2025",
+ "timestampMillis": "1740979276378",
+ "report": {
+  "path": "/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-partition-258/AES_ECB_encrypt/hls/syn/report/csynth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Mar  3 00:21:16 2025",
+ "timestampMillis": "1740979276379",
+ "report": {
+  "path": "/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-partition-258/AES_ECB_encrypt/hls/syn/report/csynth.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Mar  3 00:21:34 2025",
+ "timestampMillis": "1740979294534",
+ "report": {
+  "path": "/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-partition-258/AES_ECB_encrypt/hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Mar  3 00:21:34 2025",
+ "timestampMillis": "1740979294536",
+ "report": {
+  "path": "/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-partition-258/AES_ECB_encrypt/hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Mar  3 00:21:34 2025",
+ "timestampMillis": "1740979294537",
+ "report": {
+  "path": "/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-partition-258/AES_ECB_encrypt/hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_SCHEDULE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Mar  3 00:21:34 2025",
+ "timestampMillis": "1740979294537",
+ "status": {
+  "cmdId": "120bf5e6-9c6d-4fcb-9212-74d64e743b96",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Mar  3 00:21:34 2025",
+ "timestampMillis": "1740979294832",
+ "status": {
+  "cmdId": "c328a57b-b958-4458-b7b7-41a082ceb84e",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Mar  3 00:21:34 2025",
+ "timestampMillis": "1740979294975",
+ "report": {
+  "path": "/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-partition-258/AES_ECB_encrypt/reports/v++_compile_AES_ECB_encrypt_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Mar  3 00:21:34 2025",
+ "timestampMillis": "1740979294976",
+ "report": {
+  "path": "/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-partition-258/AES_ECB_encrypt/reports/.db/v++_compile_AES_ECB_encrypt_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

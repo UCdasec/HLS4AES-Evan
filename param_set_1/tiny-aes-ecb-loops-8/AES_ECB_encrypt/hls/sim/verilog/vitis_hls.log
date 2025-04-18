@@ -1,0 +1,140 @@
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
+  **** SW Build 5069499 on May 21 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Wed Jan 29 16:17:06 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source /home/ctf/research/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'ctf' on host 'CTF.myguest.org' (Linux_x86_64 version 6.8.0-51-generic) on Wed Jan 29 16:17:11 EST 2025
+INFO: [HLS 200-10] On os Ubuntu 22.04.4 LTS
+INFO: [HLS 200-10] In directory '/home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/sim/verilog'
+WARNING: [HLS 200-2053] The vitis_hls executable is deprecated. Consider using vitis-run --mode hls --tcl
+Sourcing Tcl script 'run_sim.tcl'
+INFO: [HLS 200-1510] Running: source run_sim.tcl
+INFO: [HLS 200-1510] Running: source check_sim.tcl
+INFO: [HLS 200-1510] Running: source dataflow_monitor_API.tcl
+INFO: [COSIM 212-302] Starting C TB testing ...  
+
+Testing AES128
+
+ECB decrypt: SUCCESS!
+ECB encrypt: SUCCESS!
+
+Tests complete
+
+INFO: [COSIM 212-323] Starting verilog simulation...
+INFO: [COSIM 212-15] Starting XSIM ...
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/ctf/research/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab xil_defaultlib.apatb_AES_ECB_encrypt_top glbl -Oenable_linking_all_libraries -prj AES_ECB_encrypt.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_0_23 -L floating_point_v7_1_18 --lib ieee_proposed=./ieee_proposed -s AES_ECB_encrypt -debug all 
+Multi-threading is on. Using 2 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/sim/verilog/AESL_automem_buf_r.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_buf_r
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/sim/verilog/AES_ECB_encrypt.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_AES_ECB_encrypt_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/sim/verilog/AES_ECB_encrypt_Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES_ECB_encrypt_Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/sim/verilog/AES_ECB_encrypt_Cipher_Pipeline_VITIS_LOOP_254_1_VITIS_LOOP_256_23.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES_ECB_encrypt_Cipher_Pipeline_VITIS_LOOP_254_1_VITIS_LOOP_256_23
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/sim/verilog/AES_ECB_encrypt_Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_22.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES_ECB_encrypt_Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_22
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/sim/verilog/AES_ECB_encrypt_Cipher.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES_ECB_encrypt_Cipher
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/sim/verilog/AES_ECB_encrypt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES_ECB_encrypt
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/sim/verilog/AES_ECB_encrypt_Cipher_Pipeline_VITIS_LOOP_304_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES_ECB_encrypt_Cipher_Pipeline_VITIS_LOOP_304_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/sim/verilog/AES_ECB_encrypt_flow_control_loop_pipe_sequential_init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES_ECB_encrypt_flow_control_loop_pipe_sequential_init
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/sim/verilog/AES_ECB_encrypt_Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_24.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES_ECB_encrypt_Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_24
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/sim/verilog/AES_ECB_encrypt_Cipher_sbox_ROM_AUTO_1R.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES_ECB_encrypt_Cipher_sbox_ROM_AUTO_1R
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/sim/verilog/AES_ECB_encrypt_Cipher_Pipeline_VITIS_LOOP_254_1_VITIS_LOOP_256_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES_ECB_encrypt_Cipher_Pipeline_VITIS_LOOP_254_1_VITIS_LOOP_256_2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.AES_ECB_encrypt_Cipher_sbox_ROM_...
+Compiling module xil_defaultlib.AES_ECB_encrypt_flow_control_loo...
+Compiling module xil_defaultlib.AES_ECB_encrypt_Cipher_Pipeline_...
+Compiling module xil_defaultlib.AES_ECB_encrypt_Cipher_Pipeline_...
+Compiling module xil_defaultlib.AES_ECB_encrypt_Cipher_Pipeline_...
+Compiling module xil_defaultlib.AES_ECB_encrypt_Cipher_Pipeline_...
+Compiling module xil_defaultlib.AES_ECB_encrypt_Cipher_Pipeline_...
+Compiling module xil_defaultlib.AES_ECB_encrypt_Cipher_Pipeline_...
+Compiling module xil_defaultlib.AES_ECB_encrypt_Cipher
+Compiling module xil_defaultlib.AES_ECB_encrypt
+Compiling module xil_defaultlib.AESL_automem_buf_r
+Compiling module xil_defaultlib.nodf_module_intf_default
+Compiling module xil_defaultlib.seq_loop_intf(FSM_WIDTH=35)
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=1)
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=4)
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_AES_ECB_encrypt_top
+Compiling module work.glbl
+Built simulation snapshot AES_ECB_encrypt
+
+****** xsim v2024.1 (64-bit)
+  **** SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Wed Jan 29 16:17:21 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/AES_ECB_encrypt/xsim_script.tcl
+# xsim {AES_ECB_encrypt} -view {{AES_ECB_encrypt_dataflow_ana.wcfg}} -tclbatch {AES_ECB_encrypt.tcl} -protoinst {AES_ECB_encrypt.protoinst}
+INFO: [Wavedata 42-565] Reading protoinst file AES_ECB_encrypt.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_AES_ECB_encrypt_top/AESL_inst_AES_ECB_encrypt//AESL_inst_AES_ECB_encrypt_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_AES_ECB_encrypt_top/AESL_inst_AES_ECB_encrypt/grp_Cipher_fu_34/grp_Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_22_fu_225/grp_Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_22_fu_225_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_AES_ECB_encrypt_top/AESL_inst_AES_ECB_encrypt/grp_Cipher_fu_34/grp_Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_24_fu_241/grp_Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_24_fu_241_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_AES_ECB_encrypt_top/AESL_inst_AES_ECB_encrypt/grp_Cipher_fu_34/grp_Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_2_fu_203/grp_Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_2_fu_203_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_AES_ECB_encrypt_top/AESL_inst_AES_ECB_encrypt/grp_Cipher_fu_34/grp_Cipher_Pipeline_VITIS_LOOP_254_1_VITIS_LOOP_256_23_fu_233/grp_Cipher_Pipeline_VITIS_LOOP_254_1_VITIS_LOOP_256_23_fu_233_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_AES_ECB_encrypt_top/AESL_inst_AES_ECB_encrypt/grp_Cipher_fu_34/grp_Cipher_Pipeline_VITIS_LOOP_254_1_VITIS_LOOP_256_2_fu_211/grp_Cipher_Pipeline_VITIS_LOOP_254_1_VITIS_LOOP_256_2_fu_211_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_AES_ECB_encrypt_top/AESL_inst_AES_ECB_encrypt/grp_Cipher_fu_34/grp_Cipher_Pipeline_VITIS_LOOP_304_1_fu_219/grp_Cipher_Pipeline_VITIS_LOOP_304_1_fu_219_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_AES_ECB_encrypt_top/AESL_inst_AES_ECB_encrypt/grp_Cipher_fu_34/grp_Cipher_fu_34_activity
+Time resolution is 1 ps
+open_wave_config AES_ECB_encrypt_dataflow_ana.wcfg
+source AES_ECB_encrypt.tcl
+## open_vcd
+## log_vcd [get_object /*]
+INFO: HDL object /apatb_AES_ECB_encrypt_top/start_timestamp is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /apatb_AES_ECB_encrypt_top/ready_timestamp is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+INFO: HDL object /apatb_AES_ECB_encrypt_top/finish_timestamp is an unpacked array. VCD does not support unpacked array type according to IEEE LRM 1800-2009, section21.7.5.
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+// RTL Simulation : 1 / 1 [100.00%] @ "7165000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 7225 ns : File "/home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/sim/verilog/AES_ECB_encrypt.autotb.v" Line 292
+## close_vcd
+## quit
+INFO: [Common 17-206] Exiting xsim at Wed Jan 29 16:17:25 2025...
+INFO: [COSIM 212-316] Starting C post checking ...
+
+Testing AES128
+
+ECB decrypt: SUCCESS!
+ECB encrypt: SUCCESS!
+
+Tests complete
+
+INFO: [HLS 200-112] Total CPU user time: 21.93 seconds. Total CPU system time: 1.84 seconds. Total elapsed time: 19.87 seconds; peak allocated memory: 97.523 MB.

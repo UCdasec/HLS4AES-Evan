@@ -1,0 +1,18 @@
+{
+    "vcdGlob": "param_set_1_encrypt_only/tiny-aes-ecb-no-parms.vcd",
+    "pickleGlob": "param_set_1_encrypt_only/tiny-aes-ecb-no-parms.pickle",
+    "signalsFileNameLiterals": "signals_name.json",
+    "signalsFileName": "signals.json",
+    "signalPropertiesFile": "signal_properties.pickle",
+    "leakageModel": "HammingDistance",
+    "window": false,
+    "windowFrom": null,
+    "windowTo": null,
+    "valueExtractFunction": "valueExtractIndex",
+    "writeTraces": true,
+    "writeTracesBatchSize": 10,
+    "traceFileName": "param_set_1_encrypt_only/tiny-aes-ecb-no-parms.h5",
+    "align": false,
+    "downsample": 100000.0,
+    "format": "lascar"
+}

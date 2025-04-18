@@ -1,0 +1,90 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "4",
+    "file": "aes.c",
+    "fileloc": 470,
+    "instructions": 3,
+    "name": "AES_ECB_encrypt",
+    "total_instructions": 348
+  },
+  "1": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "aes.c",
+    "fileloc": 266,
+    "instructions": 49,
+    "loads": {
+      "L": 12
+    },
+    "name": "ShiftRows",
+    "stores": {
+      "L": 12
+    },
+    "total_instructions": 49
+  },
+  "2": {
+    "basicblocks": 6,
+    "calls": "",
+    "file": "aes.c",
+    "fileloc": 237,
+    "instructions": 29,
+    "loads": {
+      "L": 2
+    },
+    "name": "AddRoundKey",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 29
+  },
+  "3": {
+    "basicblocks": 4,
+    "calls": "6 6 6 6",
+    "file": "aes.c",
+    "fileloc": 300,
+    "instructions": 78,
+    "loads": {
+      "L": 16
+    },
+    "name": "MixColumns",
+    "stores": {
+      "L": 4
+    },
+    "total_instructions": 98
+  },
+  "4": {
+    "basicblocks": 5,
+    "calls": "2 5 1 3 2 5 1 2",
+    "file": "aes.c",
+    "fileloc": 413,
+    "instructions": 16,
+    "name": "Cipher",
+    "total_instructions": 345
+  },
+  "5": {
+    "basicblocks": 6,
+    "calls": "",
+    "file": "aes.c",
+    "fileloc": 251,
+    "instructions": 23,
+    "loads": {
+      "G": 1,
+      "L": 1
+    },
+    "name": "SubBytes",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 23
+  },
+  "6": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "aes.c",
+    "fileloc": 294,
+    "instructions": 5,
+    "name": "xtime",
+    "total_instructions": 5
+  }
+}

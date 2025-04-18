@@ -1,0 +1,6 @@
+   Build using "/home/ctf/research/Xilinx/Vitis_HLS/2024.1/vcxx/libexec//clang++"
+   Compiling apatb_AES_ECB_encrypt.cpp
+   Compiling aes.c_pre.c.tb.c
+   Compiling test.c_pre.c.tb.c
+   Compiling apatb_AES_ECB_encrypt_ir.ll
+   Generating cosim.tv.exe

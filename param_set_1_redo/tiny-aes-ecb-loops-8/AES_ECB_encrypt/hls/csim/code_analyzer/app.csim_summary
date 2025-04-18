@@ -1,0 +1,80 @@
+<ENTRY>
+{
+ "thisFile": "/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/csim/code_analyzer/app.csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Mon Mar  3 00:04:54 2025",
+ "timestampMillis": "1740978294586",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [],
+  "toolVersion": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Mon Mar  3 00:04:54 2025",
+ "timestampMillis": "1740978294588",
+ "buildStep": {
+  "cmdId": "0b9c5a7c-f7ed-11ef-a80c-8707d399e20d",
+  "name": "vitis_c++",
+  "logFile": "",
+  "commandLine": "vitis_c++ code_analyzer",
+  "args": [
+   "code_analyzer"
+  ],
+  "iniFiles": [],
+  "cwd": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Mar  3 00:04:54 2025",
+ "timestampMillis": "1740978294589",
+ "status": {
+  "cmdId": "0b9c5a7c-f7ed-11ef-a80c-8707d399e20d",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Mar  3 00:05:01 2025",
+ "timestampMillis": "1740978301607",
+ "status": {
+  "cmdId": "0b9c5a7c-f7ed-11ef-a80c-8707d399e20d",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Mar  3 00:05:01 2025",
+ "timestampMillis": "1740978301608",
+ "report": {
+  "path": "/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "VCXX_CODE_ANALYZER",
+  "cmdId": "0b9c5a7c-f7ed-11ef-a80c-8707d399e20d"
+ }
+}
+</ENTRY>

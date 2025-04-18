@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# xsim v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Mar  3 00:15:26 2025
+# Process ID: 9103
+# Current directory: /home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/sim/verilog
+# Command line: xsim -mode tcl -source {xsim.dir/AES_ECB_encrypt/xsim_script.tcl}
+# Log file: /home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/sim/verilog/xsim.log
+# Journal file: /home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/sim/verilog/xsim.jou
+# Running On        :CTF
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 22.04.4 LTS
+# Processor Detail  :AMD Ryzen 7 4700U with Radeon Graphics
+# CPU Frequency     :1996.247 MHz
+# CPU Physical cores:4
+# CPU Logical cores :4
+# Host memory       :4106 MB
+# Swap memory       :4087 MB
+# Total Virtual     :8193 MB
+# Available Virtual :3837 MB
+#-----------------------------------------------------------
+source xsim.dir/AES_ECB_encrypt/xsim_script.tcl
+# xsim {AES_ECB_encrypt} -autoloadwcfg -tclbatch {AES_ECB_encrypt.tcl}
+Time resolution is 1 ps
+source AES_ECB_encrypt.tcl
+## open_vcd
+## log_vcd
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+// RTL Simulation : 1 / 1 [100.00%] @ "7165000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 7225 ns : File "/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/sim/verilog/AES_ECB_encrypt.autotb.v" Line 292
+## close_vcd
+## quit
+INFO: [Common 17-206] Exiting xsim at Mon Mar  3 00:15:30 2025...

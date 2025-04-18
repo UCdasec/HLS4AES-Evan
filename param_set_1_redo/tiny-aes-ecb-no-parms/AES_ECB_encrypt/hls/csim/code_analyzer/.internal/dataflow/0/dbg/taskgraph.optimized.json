@@ -1,0 +1,762 @@
+[
+    {
+        "name": "AES_ECB_encrypt",
+        "df_function": "%F224",
+        "df_type": "Function",
+        "project": "SLX",
+        "processes": {
+            "1": {
+                "id": "1",
+                "name": "Artificial<Start>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c",
+                        "line": 470,
+                        "column": 1
+                    },
+                    "end_loc": {
+                        "file": "/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c",
+                        "line": 474,
+                        "column": 1
+                    }
+                },
+                "display_name": "<START>",
+                "kind": "start"
+            },
+            "2": {
+                "id": "2",
+                "name": "Artificial<End>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c",
+                        "line": 470,
+                        "column": 1
+                    },
+                    "end_loc": {
+                        "file": "/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c",
+                        "line": 474,
+                        "column": 1
+                    }
+                },
+                "display_name": "<END>",
+                "kind": "end"
+            },
+            "3": {
+                "id": "3",
+                "name": "Region<OutlineCall(R2 AES_ECB_encrypt) BB 'codeRepl' [Atomic,Call] 'Outline_T3_F224_R2_Call'>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c",
+                        "line": 473,
+                        "column": 3
+                    },
+                    "end_loc": {
+                        "file": "/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c",
+                        "line": 473,
+                        "column": 28
+                    }
+                },
+                "display_name": "Process 1",
+                "io_signatures": {
+                    "has_unresolved_accesses": false,
+                    "accesses": [
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c",
+                                    "line": 470,
+                                    "column": 0
+                                },
+                                "id": "VId_85_*0(0,1536)arg.A0(0,1408)[?(?,8)]",
+                                "name": "ctx->RoundKey[*]",
+                                "display_name": "uint8_t AES_ctx::RoundKey[176]"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "is_exact": false,
+                                        "is_empty": false
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 176
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "Ptr",
+                            "has_alias": false,
+                            "arg_idx": 0
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c",
+                                    "line": 470,
+                                    "column": 0
+                                },
+                                "id": "VId_86_[?(?,32)]dc[?(?,8)]",
+                                "name": "buf[*][*]",
+                                "display_name": "uint8_t buf[4][4]"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 16,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 176
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 16,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 160
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 1,
+                                                "end": 2,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 10
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 5,
+                                                "end": 6,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 10
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 9,
+                                                "end": 10,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 10
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 13,
+                                                "end": 14,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 10
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 2,
+                                                "end": 3,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 10
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 10,
+                                                "end": 11,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 10
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 6,
+                                                "end": 7,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 10
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 14,
+                                                "end": 15,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 10
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 3,
+                                                "end": 4,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 10
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 15,
+                                                "end": 16,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 10
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 11,
+                                                "end": 12,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 10
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 7,
+                                                "end": 8,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 10
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 13,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 36
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 1,
+                                                "end": 14,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 36
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 2,
+                                                "end": 15,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 36
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 3,
+                                                "end": 16,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 36
+                                }
+                            ],
+                            "writes": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 16,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 176
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 16,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 160
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 1,
+                                                "end": 2,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 10
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 5,
+                                                "end": 6,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 10
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 9,
+                                                "end": 10,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 10
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 13,
+                                                "end": 14,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 10
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 2,
+                                                "end": 3,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 10
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 10,
+                                                "end": 11,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 10
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 6,
+                                                "end": 7,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 10
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 14,
+                                                "end": 15,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 10
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 3,
+                                                "end": 4,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 10
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 15,
+                                                "end": 16,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 10
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 11,
+                                                "end": 12,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 10
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 7,
+                                                "end": 8,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 10
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 13,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 36
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 1,
+                                                "end": 14,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 36
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 2,
+                                                "end": 15,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 36
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 3,
+                                                "end": 16,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "exec_count": 36
+                                }
+                            ],
+                            "kind": "Ptr",
+                            "has_alias": false,
+                            "arg_idx": 1
+                        }
+                    ]
+                },
+                "subregions": [
+                    {
+                        "id": "%F231_R1",
+                        "description": "<function entry>",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c",
+                                "line": 473,
+                                "column": 15
+                            },
+                            "end_loc": {
+                                "file": "/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c",
+                                "line": 473,
+                                "column": 15
+                            }
+                        }
+                    },
+                    {
+                        "id": "%F231_R2",
+                        "description": "<call 'Cipher'>",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c",
+                                "line": 473,
+                                "column": 3
+                            },
+                            "end_loc": {
+                                "file": "/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c",
+                                "line": 473,
+                                "column": 28
+                            }
+                        }
+                    }
+                ],
+                "subdataflow": [
+                    {
+                        "id": "%F225",
+                        "region_type": "Function",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c",
+                                "line": 473,
+                                "column": 3
+                            },
+                            "end_loc": {
+                                "file": "/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c",
+                                "line": 473,
+                                "column": 28
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "channels": {
+            "ctx->RoundKey[*]_RAW_1_3_#0": {
+                "name": "ctx->RoundKey[*]_RAW_1_3_#0",
+                "variable_id": "VId_85_*0(0,1536)arg.A0(0,1408)[?(?,8)]",
+                "variable_name": "ctx->RoundKey[*]",
+                "declaration": "uint8_t AES_ctx::RoundKey[176]",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c",
+                    "line": 470,
+                    "column": 0
+                },
+                "source": "1",
+                "sink": "3"
+            },
+            "buf[*][*]_RAW_1_3_#1": {
+                "name": "buf[*][*]_RAW_1_3_#1",
+                "variable_id": "VId_86_[?(?,32)]dc[?(?,8)]",
+                "variable_name": "buf[*][*]",
+                "declaration": "uint8_t buf[4][4]",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c",
+                    "line": 470,
+                    "column": 0
+                },
+                "source": "1",
+                "sink": "3"
+            },
+            "buf[*][*]_WAW_1_3_#2": {
+                "name": "buf[*][*]_WAW_1_3_#2",
+                "variable_id": "VId_86_[?(?,32)]dc[?(?,8)]",
+                "variable_name": "buf[*][*]",
+                "declaration": "uint8_t buf[4][4]",
+                "kind": "Ptr",
+                "dependence": "WAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c",
+                    "line": 470,
+                    "column": 0
+                },
+                "source": "1",
+                "sink": "3"
+            },
+            "buf[*][*]_RAW_3_2_#3": {
+                "name": "buf[*][*]_RAW_3_2_#3",
+                "variable_id": "VId_86_[?(?,32)]dc[?(?,8)]",
+                "variable_name": "buf[*][*]",
+                "declaration": "uint8_t buf[4][4]",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c",
+                    "line": 470,
+                    "column": 0
+                },
+                "source": "3",
+                "sink": "2"
+            },
+            "buf[*][*]_RAR_3_2_#4": {
+                "name": "buf[*][*]_RAR_3_2_#4",
+                "variable_id": "VId_86_[?(?,32)]dc[?(?,8)]",
+                "variable_name": "buf[*][*]",
+                "declaration": "uint8_t buf[4][4]",
+                "kind": "Ptr",
+                "dependence": "RAR",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c",
+                    "line": 470,
+                    "column": 0
+                },
+                "source": "3",
+                "sink": "2"
+            }
+        },
+        "control": [
+            {
+                "source": "1",
+                "sink": "3"
+            },
+            {
+                "source": "3",
+                "sink": "2"
+            }
+        ]
+    }
+]

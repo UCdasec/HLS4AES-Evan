@@ -1,0 +1,54 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="directive:1:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="AES_ECB_encrypt" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=AES_ECB_encrypt" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../../tiny-AES-c-mod/aes.c:301:0" msg_body="Inlining function 'xtime' into 'MixColumns'">
+        <args Callee="xtime" Callee-DebugLoc="File ../../tiny-AES-c-mod/aes.c Line 295 Column 0" Caller="MixColumns" Caller-DebugLoc="File ../../tiny-AES-c-mod/aes.c Line 301 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../../tiny-AES-c-mod/aes.c:414:0" msg_body="Inlining function 'AddRoundKey' into 'Cipher'">
+        <args Callee="AddRoundKey" Callee-DebugLoc="File ../../tiny-AES-c-mod/aes.c Line 238 Column 0" Caller="Cipher" Caller-DebugLoc="File ../../tiny-AES-c-mod/aes.c Line 414 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../../tiny-AES-c-mod/aes.c:414:0" msg_body="Inlining function 'SubBytes' into 'Cipher'">
+        <args Callee="SubBytes" Callee-DebugLoc="File ../../tiny-AES-c-mod/aes.c Line 252 Column 0" Caller="Cipher" Caller-DebugLoc="File ../../tiny-AES-c-mod/aes.c Line 414 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../../tiny-AES-c-mod/aes.c:414:0" msg_body="Inlining function 'ShiftRows' into 'Cipher'">
+        <args Callee="ShiftRows" Callee-DebugLoc="File ../../tiny-AES-c-mod/aes.c Line 267 Column 0" Caller="Cipher" Caller-DebugLoc="File ../../tiny-AES-c-mod/aes.c Line 414 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../../tiny-AES-c-mod/aes.c:414:0" msg_body="Inlining function 'MixColumns' into 'Cipher'">
+        <args Callee="MixColumns" Callee-DebugLoc="File ../../tiny-AES-c-mod/aes.c Line 301 Column 0" Caller="Cipher" Caller-DebugLoc="File ../../tiny-AES-c-mod/aes.c Line 414 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../../tiny-AES-c-mod/aes.c:471:0" msg_body="Aggregating scalar variable 'ctx' with compact=bit mode in 1536-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="1536" HwTyName="scalar" Name="ctx"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../../tiny-AES-c-mod/aes.c:304:21" msg_body="Loop 'VITIS_LOOP_304_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_304_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../../tiny-AES-c-mod/aes.c:240:21" msg_body="Loop 'VITIS_LOOP_240_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_240_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../../tiny-AES-c-mod/aes.c:242:23" msg_body="Loop 'VITIS_LOOP_242_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_242_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../../tiny-AES-c-mod/aes.c:254:21" msg_body="Loop 'VITIS_LOOP_254_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_254_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../../tiny-AES-c-mod/aes.c:256:23" msg_body="Loop 'VITIS_LOOP_256_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_256_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../../tiny-AES-c-mod/aes.c:414:0" msg_body="Unrolling loop 'VITIS_LOOP_304_1' (../../tiny-AES-c-mod/aes.c:304:21) in function 'Cipher' completely with a factor of 4">
+        <args Factor="4" LoopLoc="../../tiny-AES-c-mod/aes.c:304:21" LoopName="VITIS_LOOP_304_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../../tiny-AES-c-mod/aes.c:414:0" msg_body="Unrolling loop 'VITIS_LOOP_240_1' (../../tiny-AES-c-mod/aes.c:240:21) in function 'Cipher' completely with a factor of 4">
+        <args Factor="4" LoopLoc="../../tiny-AES-c-mod/aes.c:240:21" LoopName="VITIS_LOOP_240_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../../tiny-AES-c-mod/aes.c:414:0" msg_body="Unrolling loop 'VITIS_LOOP_242_2' (../../tiny-AES-c-mod/aes.c:242:23) in function 'Cipher' completely with a factor of 4">
+        <args Factor="4" LoopLoc="../../tiny-AES-c-mod/aes.c:242:23" LoopName="VITIS_LOOP_242_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../../tiny-AES-c-mod/aes.c:414:0" msg_body="Unrolling loop 'VITIS_LOOP_254_1' (../../tiny-AES-c-mod/aes.c:254:21) in function 'Cipher' completely with a factor of 4">
+        <args Factor="4" LoopLoc="../../tiny-AES-c-mod/aes.c:254:21" LoopName="VITIS_LOOP_254_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../../tiny-AES-c-mod/aes.c:414:0" msg_body="Unrolling loop 'VITIS_LOOP_256_2' (../../tiny-AES-c-mod/aes.c:256:23) in function 'Cipher' completely with a factor of 4">
+        <args Factor="4" LoopLoc="../../tiny-AES-c-mod/aes.c:256:23" LoopName="VITIS_LOOP_256_2"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

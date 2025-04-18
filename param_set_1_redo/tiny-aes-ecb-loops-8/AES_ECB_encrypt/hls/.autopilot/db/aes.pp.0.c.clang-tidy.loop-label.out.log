@@ -1,0 +1,85 @@
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:749:3: warning: Added loop label VITIS_LOOP_152_1:   [xilinx-label-all-loops]
+  for (i = 0; i < 4; ++i)
+  ^~~
+  VITIS_LOOP_152_1: 
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:749:3: note: FIX-IT applied suggested code changes
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:758:3: warning: Added loop label VITIS_LOOP_161_2:   [xilinx-label-all-loops]
+  for (i = 4; i < 4 * (10 + 1); ++i)
+  ^~~
+  VITIS_LOOP_161_2: 
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:758:3: note: FIX-IT applied suggested code changes
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:826:3: warning: Added loop label VITIS_LOOP_240_1:   [xilinx-label-all-loops]
+  for (i = 0; i < 4; ++i)
+  ^~~
+  VITIS_LOOP_240_1: 
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:826:3: note: FIX-IT applied suggested code changes
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:828:5: warning: Added loop label VITIS_LOOP_242_2:   [xilinx-label-all-loops]
+    for (j = 0; j < 4; ++j)
+    ^~~
+    VITIS_LOOP_242_2: 
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:828:5: note: FIX-IT applied suggested code changes
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:840:3: warning: Added loop label VITIS_LOOP_254_1:   [xilinx-label-all-loops]
+  for (i = 0; i < 4; ++i)
+  ^~~
+  VITIS_LOOP_254_1: 
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:840:3: note: FIX-IT applied suggested code changes
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:842:5: warning: Added loop label VITIS_LOOP_256_2:   [xilinx-label-all-loops]
+    for (j = 0; j < 4; ++j)
+    ^~~
+    VITIS_LOOP_256_2: 
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:842:5: note: FIX-IT applied suggested code changes
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:890:3: warning: Added loop label VITIS_LOOP_304_1:   [xilinx-label-all-loops]
+  for (i = 0; i < 4; ++i)
+  ^~~
+  VITIS_LOOP_304_1: 
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:890:3: note: FIX-IT applied suggested code changes
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:905:3: warning: Added loop label VITIS_LOOP_354_1:   [xilinx-label-all-loops]
+  for (i = 0; i < 4; ++i)
+  ^~~
+  VITIS_LOOP_354_1: 
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:905:3: note: FIX-IT applied suggested code changes
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:925:3: warning: Added loop label VITIS_LOOP_374_1:   [xilinx-label-all-loops]
+  for (i = 0; i < 4; ++i)
+  ^~~
+  VITIS_LOOP_374_1: 
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:925:3: note: FIX-IT applied suggested code changes
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:927:5: warning: Added loop label VITIS_LOOP_376_2:   [xilinx-label-all-loops]
+    for (j = 0; j < 4; ++j)
+    ^~~
+    VITIS_LOOP_376_2: 
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:927:5: note: FIX-IT applied suggested code changes
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:975:3: warning: Added loop label VITIS_LOOP_424_1:   [xilinx-label-all-loops]
+  for (round = 1; ; ++round)
+  ^~~
+  VITIS_LOOP_424_1: 
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:975:3: note: FIX-IT applied suggested code changes
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:1001:3: warning: Added loop label VITIS_LOOP_450_1:   [xilinx-label-all-loops]
+  for (round = (10 - 1); ; --round)
+  ^~~
+  VITIS_LOOP_450_1: 
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:1001:3: note: FIX-IT applied suggested code changes
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:1033:3: warning: Added loop label VITIS_LOOP_495_1:   [xilinx-label-all-loops]
+  for (i = 0; i < 16; ++i)
+  ^~~
+  VITIS_LOOP_495_1: 
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:1033:3: note: FIX-IT applied suggested code changes
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:1043:3: warning: Added loop label VITIS_LOOP_505_1:   [xilinx-label-all-loops]
+  for (i = 0; i < length; i += 16)
+  ^~~
+  VITIS_LOOP_505_1: 
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:1043:3: note: FIX-IT applied suggested code changes
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:1058:3: warning: Added loop label VITIS_LOOP_520_1:   [xilinx-label-all-loops]
+  for (i = 0; i < length; i += 16)
+  ^~~
+  VITIS_LOOP_520_1: 
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:1058:3: note: FIX-IT applied suggested code changes
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:1075:3: warning: Added loop label VITIS_LOOP_544_1:   [xilinx-label-all-loops]
+  for (i = 0, bi = 16; i < length; ++i, ++bi)
+  ^~~
+  VITIS_LOOP_544_1: 
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:1075:3: note: FIX-IT applied suggested code changes
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:1084:7: warning: Added loop label VITIS_LOOP_553_2:   [xilinx-label-all-loops]
+      for (bi = (16 - 1); bi >= 0; --bi)
+      ^~~
+      VITIS_LOOP_553_2: 
+/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c:1084:7: note: FIX-IT applied suggested code changes

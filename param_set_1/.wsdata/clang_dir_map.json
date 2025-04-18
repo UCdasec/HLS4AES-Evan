@@ -1,0 +1,7 @@
+{
+  "workspaceRoot": "/home/ctf/research/hls/my_hls/vitis/param_set_1",
+  "mapping": {
+    "/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/test.c": "tiny-aes-ecb-loops-4096",
+    "/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c": "tiny-aes-ecb-loops-4096"
+  }
+}

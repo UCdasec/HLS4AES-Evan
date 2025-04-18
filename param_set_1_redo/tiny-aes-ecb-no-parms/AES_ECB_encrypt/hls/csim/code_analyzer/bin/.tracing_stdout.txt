@@ -1,0 +1,8 @@
+
+Testing AES128
+
+ECB decrypt: SUCCESS!
+ECB encrypt: SUCCESS!
+
+Tests complete
+

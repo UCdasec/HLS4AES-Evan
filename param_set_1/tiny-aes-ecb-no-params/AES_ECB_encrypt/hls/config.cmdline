@@ -1,0 +1,3 @@
+relativeroot=/home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-no-params
+original_argv=--mode hls --cosim --config /home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-no-params/hls_config.cfg --work_dir AES_ECB_encrypt 
+

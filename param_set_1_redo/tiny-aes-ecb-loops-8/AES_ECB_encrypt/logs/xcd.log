@@ -1,0 +1,99 @@
+Mon Mar  3 00:04:37 2025: Running xcd server. This server was built by gradle.
+Mon Mar  3 00:04:37 2025: Server was asked to start on port: '44589'
+Mon Mar  3 00:04:37 2025: Server is using token UUID: 'c163fc15-8bb3-4536-a51e-e1d13e763ecf'
+Mon Mar  3 00:04:37 2025: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Mon Mar  3 00:04:37 2025: Attempting to start server on port '44589'
+Mon Mar  3 00:04:37 2025: XCD main fifo: created main fifo '/tmp/xcdmainc163fc15-8bb3-4536-a51e-e1d13e763ecf', fd read = 13
+Mon Mar  3 00:04:37 2025: Running Dispatch Server
+Mon Mar  3 00:04:37 2025: Version 2.2.0
+Mon Mar  3 00:04:38 2025: Dispatch Server: Accepted socket connection from client
+Mon Mar  3 00:04:38 2025: Starting Socket connection
+Mon Mar  3 00:04:38 2025: EXCHANGE_TOKEN received, server token: c163fc15-8bb3-4536-a51e-e1d13e763ecf, passed token: c163fc15-8bb3-4536-a51e-e1d13e763ecf
+Mon Mar  3 00:04:39 2025: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Mon Mar  3 00:04:39 2025: SESSION_MGR: creating session with session uuid: '029ec5d0-17f0-4772-9d50-6e26411fdbfa' and name 'vitis-run_compile_AES_ECB_encrypt'
+Mon Mar  3 00:04:39 2025: KERNEL_SVC: creating session with uuid: '029ec5d0-17f0-4772-9d50-6e26411fdbfa' and name 'vitis-run_compile_AES_ECB_encrypt'
+Mon Mar  3 00:04:39 2025: GUIDANCE_SMGR: creating guidance session with uuid: '029ec5d0-17f0-4772-9d50-6e26411fdbfa' and name 'vitis-run_compile_AES_ECB_encrypt'
+Mon Mar  3 00:04:39 2025: SYSTEM_DIAGRAM: creating session with uuid: '029ec5d0-17f0-4772-9d50-6e26411fdbfa' and name 'vitis-run_compile_AES_ECB_encrypt'
+Mon Mar  3 00:04:50 2025: Dispatch Server: Accepted socket connection from client
+Mon Mar  3 00:04:50 2025: Starting Socket connection
+Mon Mar  3 00:05:02 2025: SESSION_MGR: closing session for UUID '029ec5d0-17f0-4772-9d50-6e26411fdbfa' with name 'vitis-run_compile_AES_ECB_encrypt'
+Mon Mar  3 00:05:02 2025: KERNEL_SVC: closing session for UUID '029ec5d0-17f0-4772-9d50-6e26411fdbfa' with name 'vitis-run_compile_AES_ECB_encrypt'
+Mon Mar  3 00:05:02 2025: GUIDANCE_SMGR: closing session for UUID '029ec5d0-17f0-4772-9d50-6e26411fdbfa' with name 'vitis-run_compile_AES_ECB_encrypt'
+Mon Mar  3 00:05:02 2025: SYSTEM_DIAGRAM: closing session for UUID '029ec5d0-17f0-4772-9d50-6e26411fdbfa' with name 'vitis-run_compile_AES_ECB_encrypt'
+Mon Mar  3 00:05:02 2025: STOP_SERVER received, server token: c163fc15-8bb3-4536-a51e-e1d13e763ecf, passed token: c163fc15-8bb3-4536-a51e-e1d13e763ecf
+Mon Mar  3 00:05:02 2025: Socket received request to stop server.
+Mon Mar  3 00:05:02 2025: Dispatch Server: do_await_stop
+Mon Mar  3 00:05:02 2025: Dispatch Server: stopping mainFifo_
+Mon Mar  3 00:05:02 2025: XCD main fifo: Stopping
+Mon Mar  3 00:05:02 2025: XCD main fifo: do_read error code: Operation canceled
+Mon Mar  3 00:05:02 2025: XCD main fifo: bytes_transferred: 0
+Mon Mar  3 00:05:02 2025: SERVER: destructor for server bound to port 44589
+Mon Mar  3 00:05:02 2025: XCD main fifo: Good unlink of /tmp/xcdmainc163fc15-8bb3-4536-a51e-e1d13e763ecf
+Mon Mar  3 00:05:02 2025: Server exiting with status 0.
+Mon Mar  3 00:05:02 2025: Closing log file.
+Mon Mar  3 00:05:24 2025: Running xcd server. This server was built by gradle.
+Mon Mar  3 00:05:24 2025: Server was asked to start on port: '46385'
+Mon Mar  3 00:05:24 2025: Server is using token UUID: '4603971f-8a14-4def-9812-d07ac95d9f32'
+Mon Mar  3 00:05:24 2025: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Mon Mar  3 00:05:24 2025: Attempting to start server on port '46385'
+Mon Mar  3 00:05:24 2025: XCD main fifo: created main fifo '/tmp/xcdmain4603971f-8a14-4def-9812-d07ac95d9f32', fd read = 13
+Mon Mar  3 00:05:24 2025: Running Dispatch Server
+Mon Mar  3 00:05:24 2025: Version 2.2.0
+Mon Mar  3 00:05:25 2025: Dispatch Server: Accepted socket connection from client
+Mon Mar  3 00:05:25 2025: Starting Socket connection
+Mon Mar  3 00:05:25 2025: EXCHANGE_TOKEN received, server token: 4603971f-8a14-4def-9812-d07ac95d9f32, passed token: 4603971f-8a14-4def-9812-d07ac95d9f32
+Mon Mar  3 00:05:25 2025: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Mon Mar  3 00:05:25 2025: SESSION_MGR: creating session with session uuid: '4f8e6dfd-856b-4650-a801-f782309ef72d' and name 'v++_compile_AES_ECB_encrypt'
+Mon Mar  3 00:05:25 2025: KERNEL_SVC: creating session with uuid: '4f8e6dfd-856b-4650-a801-f782309ef72d' and name 'v++_compile_AES_ECB_encrypt'
+Mon Mar  3 00:05:25 2025: GUIDANCE_SMGR: creating guidance session with uuid: '4f8e6dfd-856b-4650-a801-f782309ef72d' and name 'v++_compile_AES_ECB_encrypt'
+Mon Mar  3 00:05:25 2025: SYSTEM_DIAGRAM: creating session with uuid: '4f8e6dfd-856b-4650-a801-f782309ef72d' and name 'v++_compile_AES_ECB_encrypt'
+Mon Mar  3 00:05:35 2025: Dispatch Server: Accepted socket connection from client
+Mon Mar  3 00:05:35 2025: Starting Socket connection
+Mon Mar  3 00:05:53 2025: SESSION_MGR: closing session for UUID '4f8e6dfd-856b-4650-a801-f782309ef72d' with name 'v++_compile_AES_ECB_encrypt'
+Mon Mar  3 00:05:53 2025: KERNEL_SVC: closing session for UUID '4f8e6dfd-856b-4650-a801-f782309ef72d' with name 'v++_compile_AES_ECB_encrypt'
+Mon Mar  3 00:05:53 2025: GUIDANCE_SMGR: closing session for UUID '4f8e6dfd-856b-4650-a801-f782309ef72d' with name 'v++_compile_AES_ECB_encrypt'
+Mon Mar  3 00:05:53 2025: SYSTEM_DIAGRAM: closing session for UUID '4f8e6dfd-856b-4650-a801-f782309ef72d' with name 'v++_compile_AES_ECB_encrypt'
+Mon Mar  3 00:05:53 2025: STOP_SERVER received, server token: 4603971f-8a14-4def-9812-d07ac95d9f32, passed token: 4603971f-8a14-4def-9812-d07ac95d9f32
+Mon Mar  3 00:05:53 2025: Socket received request to stop server.
+Mon Mar  3 00:05:53 2025: Dispatch Server: do_await_stop
+Mon Mar  3 00:05:53 2025: Dispatch Server: stopping mainFifo_
+Mon Mar  3 00:05:53 2025: XCD main fifo: Stopping
+Mon Mar  3 00:05:53 2025: XCD main fifo: do_read error code: Operation canceled
+Mon Mar  3 00:05:53 2025: XCD main fifo: bytes_transferred: 0
+Mon Mar  3 00:05:53 2025: SERVER: destructor for server bound to port 46385
+Mon Mar  3 00:05:53 2025: XCD main fifo: Good unlink of /tmp/xcdmain4603971f-8a14-4def-9812-d07ac95d9f32
+Mon Mar  3 00:05:53 2025: Server exiting with status 0.
+Mon Mar  3 00:05:53 2025: Closing log file.
+Mon Mar  3 00:06:00 2025: Running xcd server. This server was built by gradle.
+Mon Mar  3 00:06:00 2025: Server was asked to start on port: '46381'
+Mon Mar  3 00:06:00 2025: Server is using token UUID: '4cdf5d47-0063-4233-904b-bf8f171c7d25'
+Mon Mar  3 00:06:00 2025: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Mon Mar  3 00:06:00 2025: Attempting to start server on port '46381'
+Mon Mar  3 00:06:00 2025: XCD main fifo: created main fifo '/tmp/xcdmain4cdf5d47-0063-4233-904b-bf8f171c7d25', fd read = 13
+Mon Mar  3 00:06:00 2025: Running Dispatch Server
+Mon Mar  3 00:06:00 2025: Version 2.2.0
+Mon Mar  3 00:06:01 2025: Dispatch Server: Accepted socket connection from client
+Mon Mar  3 00:06:01 2025: Starting Socket connection
+Mon Mar  3 00:06:01 2025: EXCHANGE_TOKEN received, server token: 4cdf5d47-0063-4233-904b-bf8f171c7d25, passed token: 4cdf5d47-0063-4233-904b-bf8f171c7d25
+Mon Mar  3 00:06:02 2025: DISPATCH_HANDLER: Adding handler from function makeHandler in library libxv_system_diagram
+Mon Mar  3 00:06:02 2025: SESSION_MGR: creating session with session uuid: '65f05ef9-bfd3-4c98-8066-2e89f09df97e' and name 'vitis-run_compile_AES_ECB_encrypt'
+Mon Mar  3 00:06:02 2025: KERNEL_SVC: creating session with uuid: '65f05ef9-bfd3-4c98-8066-2e89f09df97e' and name 'vitis-run_compile_AES_ECB_encrypt'
+Mon Mar  3 00:06:02 2025: GUIDANCE_SMGR: creating guidance session with uuid: '65f05ef9-bfd3-4c98-8066-2e89f09df97e' and name 'vitis-run_compile_AES_ECB_encrypt'
+Mon Mar  3 00:06:02 2025: SYSTEM_DIAGRAM: creating session with uuid: '65f05ef9-bfd3-4c98-8066-2e89f09df97e' and name 'vitis-run_compile_AES_ECB_encrypt'
+Mon Mar  3 00:06:12 2025: Dispatch Server: Accepted socket connection from client
+Mon Mar  3 00:06:12 2025: Starting Socket connection
+Mon Mar  3 00:06:52 2025: SESSION_MGR: closing session for UUID '65f05ef9-bfd3-4c98-8066-2e89f09df97e' with name 'vitis-run_compile_AES_ECB_encrypt'
+Mon Mar  3 00:06:52 2025: KERNEL_SVC: closing session for UUID '65f05ef9-bfd3-4c98-8066-2e89f09df97e' with name 'vitis-run_compile_AES_ECB_encrypt'
+Mon Mar  3 00:06:52 2025: GUIDANCE_SMGR: closing session for UUID '65f05ef9-bfd3-4c98-8066-2e89f09df97e' with name 'vitis-run_compile_AES_ECB_encrypt'
+Mon Mar  3 00:06:52 2025: SYSTEM_DIAGRAM: closing session for UUID '65f05ef9-bfd3-4c98-8066-2e89f09df97e' with name 'vitis-run_compile_AES_ECB_encrypt'
+Mon Mar  3 00:06:52 2025: STOP_SERVER received, server token: 4cdf5d47-0063-4233-904b-bf8f171c7d25, passed token: 4cdf5d47-0063-4233-904b-bf8f171c7d25
+Mon Mar  3 00:06:52 2025: Socket received request to stop server.
+Mon Mar  3 00:06:52 2025: Dispatch Server: do_await_stop
+Mon Mar  3 00:06:52 2025: Dispatch Server: stopping mainFifo_
+Mon Mar  3 00:06:52 2025: XCD main fifo: Stopping
+Mon Mar  3 00:06:52 2025: XCD main fifo: do_read error code: Operation canceled
+Mon Mar  3 00:06:52 2025: XCD main fifo: bytes_transferred: 0
+Mon Mar  3 00:06:52 2025: SERVER: destructor for server bound to port 46381
+Mon Mar  3 00:06:52 2025: XCD main fifo: Good unlink of /tmp/xcdmain4cdf5d47-0063-4233-904b-bf8f171c7d25
+Mon Mar  3 00:06:52 2025: Server exiting with status 0.
+Mon Mar  3 00:06:52 2025: Closing log file.

@@ -1,0 +1,206 @@
+
+
+================================================================
+== Synthesis Summary Report of 'AES_ECB_encrypt'
+================================================================
++ General Information: 
+    * Date:           Mon Mar  3 00:05:52 2025
+    * Version:        2024.1 (Build 5069499 on May 21 2024)
+    * Project:        AES_ECB_encrypt
+    * Solution:       hls (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z020-clg484-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +---------------------------------------------------------+------+------+---------+-----------+----------+---------+------+----------+---------+----+-----------+------------+-----+
+    |                         Modules                         | Issue|      | Latency |  Latency  | Iteration|         | Trip |          |         |    |           |            |     |
+    |                         & Loops                         | Type | Slack| (cycles)|    (ns)   |  Latency | Interval| Count| Pipelined|  BRAM   | DSP|     FF    |     LUT    | URAM|
+    +---------------------------------------------------------+------+------+---------+-----------+----------+---------+------+----------+---------+----+-----------+------------+-----+
+    |+ AES_ECB_encrypt                                        |     -|  0.48|      762|  7.620e+03|         -|      763|     -|        no|  1 (~0%)|   -|  353 (~0%)|  8221 (15%)|    -|
+    | + Cipher                                                |     -|  0.48|      761|  7.610e+03|         -|      761|     -|        no|  1 (~0%)|   -|  350 (~0%)|  8207 (15%)|    -|
+    |  + Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_2    |     -|  1.36|       20|    200.000|         -|       20|     -|        no|        -|   -|   37 (~0%)|   2316 (4%)|    -|
+    |   o VITIS_LOOP_240_1_VITIS_LOOP_242_2                   |     -|  7.30|       18|    180.000|         4|        1|    16|       yes|        -|   -|          -|           -|    -|
+    |  + Cipher_Pipeline_VITIS_LOOP_254_1_VITIS_LOOP_256_2    |     -|  0.61|       20|    200.000|         -|       20|     -|        no|        -|   -|   26 (~0%)|   137 (~0%)|    -|
+    |   o VITIS_LOOP_254_1_VITIS_LOOP_256_2                   |     -|  7.30|       18|    180.000|         4|        1|    16|       yes|        -|   -|          -|           -|    -|
+    |  + Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_24   |     -|  1.36|       20|    200.000|         -|       20|     -|        no|        -|   -|   37 (~0%)|   2316 (4%)|    -|
+    |   o VITIS_LOOP_240_1_VITIS_LOOP_242_2                   |     -|  7.30|       18|    180.000|         4|        1|    16|       yes|        -|   -|          -|           -|    -|
+    |  o VITIS_LOOP_424_1                                     |     -|  7.30|      684|  6.840e+03|        76|        -|     9|        no|        -|   -|          -|           -|    -|
+    |   + Cipher_Pipeline_VITIS_LOOP_304_1                    |     -|  0.48|       18|    180.000|         -|       18|     -|        no|        -|   -|   50 (~0%)|   310 (~0%)|    -|
+    |    o VITIS_LOOP_304_1                                   |    II|  7.30|       16|    160.000|         4|        4|     4|       yes|        -|   -|          -|           -|    -|
+    |   + Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_22  |     -|  1.36|       20|    200.000|         -|       20|     -|        no|        -|   -|   37 (~0%)|   2316 (4%)|    -|
+    |    o VITIS_LOOP_240_1_VITIS_LOOP_242_2                  |     -|  7.30|       18|    180.000|         4|        1|    16|       yes|        -|   -|          -|           -|    -|
+    |   + Cipher_Pipeline_VITIS_LOOP_254_1_VITIS_LOOP_256_23  |     -|  0.61|       20|    200.000|         -|       20|     -|        no|        -|   -|   26 (~0%)|   137 (~0%)|    -|
+    |    o VITIS_LOOP_254_1_VITIS_LOOP_256_2                  |     -|  7.30|       18|    180.000|         4|        1|    16|       yes|        -|   -|          -|           -|    -|
+    +---------------------------------------------------------+------+------+---------+-----------+----------+---------+------+----------+---------+----+-----------+------------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* AP_MEMORY
++----------------+-----------+----------+
+| Port           | Direction | Bitwidth |
++----------------+-----------+----------+
+| buf_r_address0 | out       | 4        |
+| buf_r_address1 | out       | 4        |
+| buf_r_d0       | out       | 8        |
+| buf_r_d1       | out       | 8        |
+| buf_r_q0       | in        | 8        |
+| buf_r_q1       | in        | 8        |
++----------------+-----------+----------+
+
+* Other Ports
++------+---------+-----------+----------+
+| Port | Mode    | Direction | Bitwidth |
++------+---------+-----------+----------+
+| ctx  | ap_none | in        | 1536     |
++------+---------+-----------+----------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------------------------------+
+| Interface | Type       | Ports                             |
++-----------+------------+-----------------------------------+
+| ap_clk    | clock      | ap_clk                            |
+| ap_rst    | reset      | ap_rst                            |
+| ap_ctrl   | ap_ctrl_hs | ap_done ap_idle ap_ready ap_start |
++-----------+------------+-----------------------------------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+-----------------+
+| Argument | Direction | Datatype        |
++----------+-----------+-----------------+
+| ctx      | in        | AES_ctx const * |
+| buf      | inout     | unsigned char*  |
++----------+-----------+-----------------+
+
+* SW-to-HW Mapping
++----------+----------------+---------+----------+
+| Argument | HW Interface   | HW Type | HW Usage |
++----------+----------------+---------+----------+
+| ctx      | ctx            | port    |          |
+| buf      | buf_r_address0 | port    | offset   |
+| buf      | buf_r_ce0      | port    |          |
+| buf      | buf_r_we0      | port    |          |
+| buf      | buf_r_d0       | port    |          |
+| buf      | buf_r_q0       | port    |          |
+| buf      | buf_r_address1 | port    | offset   |
+| buf      | buf_r_ce1      | port    |          |
+| buf      | buf_r_we1      | port    |          |
+| buf      | buf_r_d1       | port    |          |
+| buf      | buf_r_q1       | port    |          |
++----------+----------------+---------+----------+
+
+
+================================================================
+== Bind Op Report
+================================================================
++--------------------------------------------------------+-----+--------+--------------+--------+-----------+---------+
+| Name                                                   | DSP | Pragma | Variable     | Op     | Impl      | Latency |
++--------------------------------------------------------+-----+--------+--------------+--------+-----------+---------+
+| + AES_ECB_encrypt                                      | 0   |        |              |        |           |         |
+|  + Cipher                                              | 0   |        |              |        |           |         |
+|    icmp_ln428_fu_321_p2                                |     |        | icmp_ln428   | seteq  | auto      | 0       |
+|    add_ln424_fu_327_p2                                 |     |        | add_ln424    | add    | fabric    | 0       |
+|   + Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_2  | 0   |        |              |        |           |         |
+|     icmp_ln240_fu_101_p2                               |     |        | icmp_ln240   | seteq  | auto      | 0       |
+|     add_ln240_3_fu_107_p2                              |     |        | add_ln240_3  | add    | fabric    | 0       |
+|     add_ln240_fu_124_p2                                |     |        | add_ln240    | add    | fabric    | 0       |
+|     icmp_ln242_fu_130_p2                               |     |        | icmp_ln242   | seteq  | auto      | 0       |
+|     select_ln239_fu_136_p3                             |     |        | select_ln239 | select | auto_sel  | 0       |
+|     select_ln240_fu_144_p3                             |     |        | select_ln240 | select | auto_sel  | 0       |
+|     add_ln244_fu_186_p2                                |     |        | add_ln244    | add    | fabric    | 0       |
+|     lshr_ln244_fu_209_p2                               |     |        | lshr_ln244   | lshr   | auto_pipe | 0       |
+|     xor_ln244_fu_218_p2                                |     |        | xor_ln244    | xor    | auto      | 0       |
+|     add_ln242_fu_160_p2                                |     |        | add_ln242    | add    | fabric    | 0       |
+|   + Cipher_Pipeline_VITIS_LOOP_254_1_VITIS_LOOP_256_2  | 0   |        |              |        |           |         |
+|     icmp_ln254_fu_105_p2                               |     |        | icmp_ln254   | seteq  | auto      | 0       |
+|     add_ln254_2_fu_111_p2                              |     |        | add_ln254_2  | add    | fabric    | 0       |
+|     add_ln254_fu_128_p2                                |     |        | add_ln254    | add    | fabric    | 0       |
+|     icmp_ln256_fu_134_p2                               |     |        | icmp_ln256   | seteq  | auto      | 0       |
+|     select_ln253_fu_140_p3                             |     |        | select_ln253 | select | auto_sel  | 0       |
+|     select_ln254_fu_152_p3                             |     |        | select_ln254 | select | auto_sel  | 0       |
+|     add_ln258_fu_172_p2                                |     |        | add_ln258    | add    | fabric    | 0       |
+|     add_ln256_fu_183_p2                                |     |        | add_ln256    | add    | fabric    | 0       |
+|   + Cipher_Pipeline_VITIS_LOOP_304_1                   | 0   |        |              |        |           |         |
+|     icmp_ln304_fu_105_p2                               |     |        | icmp_ln304   | seteq  | auto      | 0       |
+|     add_ln304_fu_111_p2                                |     |        | add_ln304    | add    | fabric    | 0       |
+|     Tm_fu_176_p2                                       |     |        | Tm           | xor    | auto      | 0       |
+|     xor_ln307_1_fu_180_p2                              |     |        | xor_ln307_1  | xor    | auto      | 0       |
+|     Tmp_fu_186_p2                                      |     |        | Tmp          | xor    | auto      | 0       |
+|     select_ln308_fu_206_p3                             |     |        | select_ln308 | select | auto_sel  | 0       |
+|     xor_ln308_fu_214_p2                                |     |        | xor_ln308    | xor    | auto      | 0       |
+|     xor_ln308_1_fu_219_p2                              |     |        | xor_ln308_1  | xor    | auto      | 0       |
+|     xor_ln308_2_fu_225_p2                              |     |        | xor_ln308_2  | xor    | auto      | 0       |
+|     Tm_1_fu_231_p2                                     |     |        | Tm_1         | xor    | auto      | 0       |
+|     select_ln309_fu_250_p3                             |     |        | select_ln309 | select | auto_sel  | 0       |
+|     xor_ln309_fu_258_p2                                |     |        | xor_ln309    | xor    | auto      | 0       |
+|     xor_ln309_1_fu_263_p2                              |     |        | xor_ln309_1  | xor    | auto      | 0       |
+|     xor_ln309_2_fu_269_p2                              |     |        | xor_ln309_2  | xor    | auto      | 0       |
+|     Tm_2_fu_275_p2                                     |     |        | Tm_2         | xor    | auto      | 0       |
+|     select_ln310_fu_295_p3                             |     |        | select_ln310 | select | auto_sel  | 0       |
+|     xor_ln310_fu_303_p2                                |     |        | xor_ln310    | xor    | auto      | 0       |
+|     xor_ln310_1_fu_309_p2                              |     |        | xor_ln310_1  | xor    | auto      | 0       |
+|     xor_ln310_2_fu_315_p2                              |     |        | xor_ln310_2  | xor    | auto      | 0       |
+|     Tm_3_fu_322_p2                                     |     |        | Tm_3         | xor    | auto      | 0       |
+|     select_ln311_fu_341_p3                             |     |        | select_ln311 | select | auto_sel  | 0       |
+|     xor_ln311_fu_349_p2                                |     |        | xor_ln311    | xor    | auto      | 0       |
+|     xor_ln311_1_fu_355_p2                              |     |        | xor_ln311_1  | xor    | auto      | 0       |
+|   + Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_22 | 0   |        |              |        |           |         |
+|     icmp_ln240_fu_111_p2                               |     |        | icmp_ln240   | seteq  | auto      | 0       |
+|     add_ln240_fu_117_p2                                |     |        | add_ln240    | add    | fabric    | 0       |
+|     add_ln240_2_fu_134_p2                              |     |        | add_ln240_2  | add    | fabric    | 0       |
+|     icmp_ln242_fu_140_p2                               |     |        | icmp_ln242   | seteq  | auto      | 0       |
+|     select_ln239_fu_146_p3                             |     |        | select_ln239 | select | auto_sel  | 0       |
+|     select_ln240_fu_154_p3                             |     |        | select_ln240 | select | auto_sel  | 0       |
+|     add_ln244_fu_196_p2                                |     |        | add_ln244    | add    | fabric    | 0       |
+|     lshr_ln244_fu_220_p2                               |     |        | lshr_ln244   | lshr   | auto_pipe | 0       |
+|     xor_ln244_fu_229_p2                                |     |        | xor_ln244    | xor    | auto      | 0       |
+|     add_ln242_fu_170_p2                                |     |        | add_ln242    | add    | fabric    | 0       |
+|   + Cipher_Pipeline_VITIS_LOOP_254_1_VITIS_LOOP_256_23 | 0   |        |              |        |           |         |
+|     icmp_ln254_fu_105_p2                               |     |        | icmp_ln254   | seteq  | auto      | 0       |
+|     add_ln254_fu_111_p2                                |     |        | add_ln254    | add    | fabric    | 0       |
+|     add_ln254_1_fu_128_p2                              |     |        | add_ln254_1  | add    | fabric    | 0       |
+|     icmp_ln256_fu_134_p2                               |     |        | icmp_ln256   | seteq  | auto      | 0       |
+|     select_ln253_fu_140_p3                             |     |        | select_ln253 | select | auto_sel  | 0       |
+|     select_ln254_fu_152_p3                             |     |        | select_ln254 | select | auto_sel  | 0       |
+|     add_ln258_fu_172_p2                                |     |        | add_ln258    | add    | fabric    | 0       |
+|     add_ln256_fu_183_p2                                |     |        | add_ln256    | add    | fabric    | 0       |
+|   + Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_24 | 0   |        |              |        |           |         |
+|     icmp_ln240_fu_103_p2                               |     |        | icmp_ln240   | seteq  | auto      | 0       |
+|     add_ln240_fu_109_p2                                |     |        | add_ln240    | add    | fabric    | 0       |
+|     add_ln240_1_fu_126_p2                              |     |        | add_ln240_1  | add    | fabric    | 0       |
+|     icmp_ln242_fu_132_p2                               |     |        | icmp_ln242   | seteq  | auto      | 0       |
+|     select_ln239_fu_138_p3                             |     |        | select_ln239 | select | auto_sel  | 0       |
+|     select_ln240_fu_146_p3                             |     |        | select_ln240 | select | auto_sel  | 0       |
+|     add_ln244_fu_188_p2                                |     |        | add_ln244    | add    | fabric    | 0       |
+|     lshr_ln244_fu_223_p2                               |     |        | lshr_ln244   | lshr   | auto_pipe | 0       |
+|     xor_ln244_fu_232_p2                                |     |        | xor_ln244    | xor    | auto      | 0       |
+|     add_ln242_fu_162_p2                                |     |        | add_ln242    | add    | fabric    | 0       |
++--------------------------------------------------------+-----+--------+--------------+--------+-----------+---------+
+
+
+================================================================
+== Storage Report
+================================================================
++-------------------+--------+------+------+------+--------+----------+------+---------+------------------+
+| Name              | Usage  | Type | BRAM | URAM | Pragma | Variable | Impl | Latency | Bitwidth, Depth, |
+|                   |        |      |      |      |        |          |      |         | Banks            |
++-------------------+--------+------+------+------+--------+----------+------+---------+------------------+
+| + AES_ECB_encrypt |        |      | 1    | 0    |        |          |      |         |                  |
+|  + Cipher         |        |      | 1    | 0    |        |          |      |         |                  |
+|    sbox_U         | rom_1p |      | 1    |      |        | sbox     | auto | 1       | 8, 256, 1        |
++-------------------+--------+------+------+------+--------+----------+------+---------+------------------+
+
+
+================================================================
+== Pragma Report
+================================================================
+  No pragmas found
+

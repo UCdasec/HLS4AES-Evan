@@ -1,0 +1,18 @@
+set SynModuleInfo {
+  {SRCNAME Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_2 MODELNAME Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_2 RTLNAME AES_ECB_encrypt_Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_2
+    SUBMODULES {
+      {MODELNAME AES_ECB_encrypt_flow_control_loop_pipe_sequential_init RTLNAME AES_ECB_encrypt_flow_control_loop_pipe_sequential_init BINDTYPE interface TYPE internal_upc_flow_control INSTNAME AES_ECB_encrypt_flow_control_loop_pipe_sequential_init_U}
+    }
+  }
+  {SRCNAME Cipher_Pipeline_VITIS_LOOP_254_1_VITIS_LOOP_256_2 MODELNAME Cipher_Pipeline_VITIS_LOOP_254_1_VITIS_LOOP_256_2 RTLNAME AES_ECB_encrypt_Cipher_Pipeline_VITIS_LOOP_254_1_VITIS_LOOP_256_2}
+  {SRCNAME Cipher_Pipeline_VITIS_LOOP_304_1 MODELNAME Cipher_Pipeline_VITIS_LOOP_304_1 RTLNAME AES_ECB_encrypt_Cipher_Pipeline_VITIS_LOOP_304_1}
+  {SRCNAME Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_22 MODELNAME Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_22 RTLNAME AES_ECB_encrypt_Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_22}
+  {SRCNAME Cipher_Pipeline_VITIS_LOOP_254_1_VITIS_LOOP_256_23 MODELNAME Cipher_Pipeline_VITIS_LOOP_254_1_VITIS_LOOP_256_23 RTLNAME AES_ECB_encrypt_Cipher_Pipeline_VITIS_LOOP_254_1_VITIS_LOOP_256_23}
+  {SRCNAME Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_24 MODELNAME Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_24 RTLNAME AES_ECB_encrypt_Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_24}
+  {SRCNAME Cipher MODELNAME Cipher RTLNAME AES_ECB_encrypt_Cipher
+    SUBMODULES {
+      {MODELNAME AES_ECB_encrypt_Cipher_sbox_ROM_AUTO_1R RTLNAME AES_ECB_encrypt_Cipher_sbox_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+    }
+  }
+  {SRCNAME AES_ECB_encrypt MODELNAME AES_ECB_encrypt RTLNAME AES_ECB_encrypt IS_TOP 1}
+}

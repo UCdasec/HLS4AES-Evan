@@ -1,0 +1,26 @@
+[
+  {
+    "directory": "/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8",
+    "arguments": [
+      "/home/ctf/research/Xilinx/Vitis_HLS/2024.1/vcxx/libexec/clang++",
+      "-fhls",
+      "-hls-syn-headers-dir=/home/ctf/research/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot",
+      "",
+      "-c",
+      "/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c"
+    ],
+    "file": "/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c"
+  },
+  {
+    "directory": "/home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-loops-8",
+    "arguments": [
+      "/home/ctf/research/Xilinx/Vitis_HLS/2024.1/vcxx/libexec/clang++",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=/home/ctf/research/Xilinx/Vitis_HLS/2024.1/include",
+      "",
+      "-c",
+      "/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/test.c"
+    ],
+    "file": "/home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/test.c"
+  }
+]

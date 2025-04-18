@@ -1,0 +1,7 @@
+Running: xsim.dir/AES_ECB_encrypt/xsimk -simmode gui -wdb AES_ECB_encrypt.wdb -simrunnum 0 -socket 45319
+Design successfully loaded
+Design Loading Memory Usage: 21384 KB (Peak: 21384 KB)
+Design Loading CPU Usage: 20 ms
+Simulation completed
+Simulation Memory Usage: 112380 KB (Peak: 160652 KB)
+Simulation CPU Usage: 60 ms

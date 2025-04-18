@@ -1,0 +1,157 @@
+---
+MainSourceFile:  /home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-no-params/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_152_1:  '
+    FileOffset:      152
+    FilePath:        /home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c
+    Replacements:    
+      - FilePath:        /home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-no-params/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c
+        Offset:          27727
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_152_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_161_2:  '
+    FileOffset:      161
+    FilePath:        /home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c
+    Replacements:    
+      - FilePath:        /home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-no-params/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c
+        Offset:          27947
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_161_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_240_1:  '
+    FileOffset:      240
+    FilePath:        /home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c
+    Replacements:    
+      - FilePath:        /home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-no-params/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c
+        Offset:          29294
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_240_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_242_2:  '
+    FileOffset:      242
+    FilePath:        /home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c
+    Replacements:    
+      - FilePath:        /home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-no-params/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c
+        Offset:          29326
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_242_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_254_1:  '
+    FileOffset:      254
+    FilePath:        /home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c
+    Replacements:    
+      - FilePath:        /home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-no-params/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c
+        Offset:          29495
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_254_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_256_2:  '
+    FileOffset:      256
+    FilePath:        /home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c
+    Replacements:    
+      - FilePath:        /home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-no-params/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c
+        Offset:          29527
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_256_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_304_1:  '
+    FileOffset:      304
+    FilePath:        /home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c
+    Replacements:    
+      - FilePath:        /home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-no-params/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c
+        Offset:          30259
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_304_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_354_1:  '
+    FileOffset:      354
+    FilePath:        /home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c
+    Replacements:    
+      - FilePath:        /home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-no-params/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c
+        Offset:          30803
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_354_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_374_1:  '
+    FileOffset:      374
+    FilePath:        /home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c
+    Replacements:    
+      - FilePath:        /home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-no-params/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c
+        Offset:          33939
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_374_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_376_2:  '
+    FileOffset:      376
+    FilePath:        /home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c
+    Replacements:    
+      - FilePath:        /home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-no-params/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c
+        Offset:          33971
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_376_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_424_1:  '
+    FileOffset:      424
+    FilePath:        /home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c
+    Replacements:    
+      - FilePath:        /home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-no-params/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c
+        Offset:          34674
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_424_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_450_1:  '
+    FileOffset:      450
+    FilePath:        /home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c
+    Replacements:    
+      - FilePath:        /home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-no-params/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c
+        Offset:          35035
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_450_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_495_1:  '
+    FileOffset:      495
+    FilePath:        /home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c
+    Replacements:    
+      - FilePath:        /home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-no-params/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c
+        Offset:          35739
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_495_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_505_1:  '
+    FileOffset:      505
+    FilePath:        /home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c
+    Replacements:    
+      - FilePath:        /home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-no-params/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c
+        Offset:          35915
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_505_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_520_1:  '
+    FileOffset:      520
+    FilePath:        /home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c
+    Replacements:    
+      - FilePath:        /home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-no-params/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c
+        Offset:          36209
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_520_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_544_1:  '
+    FileOffset:      544
+    FilePath:        /home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c
+    Replacements:    
+      - FilePath:        /home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-no-params/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c
+        Offset:          36581
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_544_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_553_2:  '
+    FileOffset:      553
+    FilePath:        /home/ctf/research/hls/my_hls/vitis/tiny-AES-c-mod/aes.c
+    Replacements:    
+      - FilePath:        /home/ctf/research/hls/my_hls/vitis/param_set_1/tiny-aes-ecb-no-params/AES_ECB_encrypt/hls/.autopilot/db/aes.pp.0.c
+        Offset:          36749
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_553_2: '
+...

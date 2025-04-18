@@ -1,0 +1,30 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "1",
+    "file": "aes.c",
+    "fileloc": 470,
+    "instructions": 8,
+    "loads": {
+      "T": 1
+    },
+    "name": "AES_ECB_encrypt",
+    "total_instructions": 424
+  },
+  "1": {
+    "basicblocks": 22,
+    "calls": "",
+    "file": "aes.c",
+    "fileloc": 413,
+    "instructions": 416,
+    "loads": {
+      "G": 17,
+      "L": 19
+    },
+    "name": "Cipher",
+    "stores": {
+      "L": 31
+    },
+    "total_instructions": 416
+  }
+}

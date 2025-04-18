@@ -1,0 +1,24 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="directive:1:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="AES_ECB_encrypt" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=AES_ECB_encrypt" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../../tiny-AES-c-mod/aes.c:301:0" msg_body="Inlining function 'xtime' into 'MixColumns'">
+        <args Callee="xtime" Callee-DebugLoc="File ../../tiny-AES-c-mod/aes.c Line 295 Column 0" Caller="MixColumns" Caller-DebugLoc="File ../../tiny-AES-c-mod/aes.c Line 301 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../../tiny-AES-c-mod/aes.c:414:0" msg_body="Inlining function 'AddRoundKey' into 'Cipher'">
+        <args Callee="AddRoundKey" Callee-DebugLoc="File ../../tiny-AES-c-mod/aes.c Line 238 Column 0" Caller="Cipher" Caller-DebugLoc="File ../../tiny-AES-c-mod/aes.c Line 414 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../../tiny-AES-c-mod/aes.c:414:0" msg_body="Inlining function 'SubBytes' into 'Cipher'">
+        <args Callee="SubBytes" Callee-DebugLoc="File ../../tiny-AES-c-mod/aes.c Line 252 Column 0" Caller="Cipher" Caller-DebugLoc="File ../../tiny-AES-c-mod/aes.c Line 414 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../../tiny-AES-c-mod/aes.c:414:0" msg_body="Inlining function 'ShiftRows' into 'Cipher'">
+        <args Callee="ShiftRows" Callee-DebugLoc="File ../../tiny-AES-c-mod/aes.c Line 267 Column 0" Caller="Cipher" Caller-DebugLoc="File ../../tiny-AES-c-mod/aes.c Line 414 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../../tiny-AES-c-mod/aes.c:414:0" msg_body="Inlining function 'MixColumns' into 'Cipher'">
+        <args Callee="MixColumns" Callee-DebugLoc="File ../../tiny-AES-c-mod/aes.c Line 301 Column 0" Caller="Cipher" Caller-DebugLoc="File ../../tiny-AES-c-mod/aes.c Line 414 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../../tiny-AES-c-mod/aes.c:471:0" msg_body="Aggregating scalar variable 'ctx' with compact=bit mode in 1536-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="1536" HwTyName="scalar" Name="ctx"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

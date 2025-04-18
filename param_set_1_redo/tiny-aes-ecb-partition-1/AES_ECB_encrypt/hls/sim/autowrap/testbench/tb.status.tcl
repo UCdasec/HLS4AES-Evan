@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName /home/ctf/research/hls/my_hls/vitis/param_set_1_redo/tiny-aes-ecb-partition-1/AES_ECB_encrypt/hls/./sim/autowrap/testbench/aes.c_pre.c.tb.c

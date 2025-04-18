@@ -1,0 +1,13 @@
+sv work "glbl.v"
+sv xil_defaultlib "AES_ECB_encrypt_Cipher_Pipeline_VITIS_LOOP_424_1.v"
+sv xil_defaultlib "AESL_automem_buf_r.v"
+sv xil_defaultlib "AES_ECB_encrypt.autotb.v"
+sv xil_defaultlib "AES_ECB_encrypt_Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_2.v"
+sv xil_defaultlib "AES_ECB_encrypt_Cipher_Pipeline_VITIS_LOOP_240_1_VITIS_LOOP_242_22.v"
+sv xil_defaultlib "AES_ECB_encrypt_Cipher.v"
+sv xil_defaultlib "AES_ECB_encrypt.v"
+sv xil_defaultlib "AES_ECB_encrypt_flow_control_loop_pipe_sequential_init.v"
+sv xil_defaultlib "AES_ECB_encrypt_Cipher_sbox_ROM_AUTO_1R.v"
+sv xil_defaultlib "AES_ECB_encrypt_Cipher_Pipeline_VITIS_LOOP_254_1_VITIS_LOOP_256_2.v"
+sv xil_defaultlib "dataflow_monitor.sv"
+
